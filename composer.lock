@@ -909,16 +909,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v8.14.0",
+            "version": "v8.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "b60139c9d3b475d5b5dc261c5dcafe8ca49b4a13"
+                "reference": "22e4182fa0885dea3772106c3b6df705b7c7363e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/b60139c9d3b475d5b5dc261c5dcafe8ca49b4a13",
-                "reference": "b60139c9d3b475d5b5dc261c5dcafe8ca49b4a13",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/22e4182fa0885dea3772106c3b6df705b7c7363e",
+                "reference": "22e4182fa0885dea3772106c3b6df705b7c7363e",
                 "shasum": ""
             },
             "require": {
@@ -992,7 +992,7 @@
             },
             "require-dev": {
                 "aws/aws-sdk-php": "^3.0",
-                "doctrine/dbal": "^2.6",
+                "doctrine/dbal": "^2.6|^3.0",
                 "filp/whoops": "^2.8",
                 "guzzlehttp/guzzle": "^6.5.5|^7.0.1",
                 "league/flysystem-cached-adapter": "^1.0",
@@ -1005,7 +1005,7 @@
             },
             "suggest": {
                 "aws/aws-sdk-php": "Required to use the SQS queue driver, DynamoDb failed job storage and SES mail driver (^3.0).",
-                "doctrine/dbal": "Required to rename columns and drop SQLite columns (^2.6).",
+                "doctrine/dbal": "Required to rename columns and drop SQLite columns (^2.6|^3.0).",
                 "ext-ftp": "Required to use the Flysystem FTP driver.",
                 "ext-gd": "Required to use Illuminate\\Http\\Testing\\FileFactory::image().",
                 "ext-memcached": "Required to use the memcache cache driver.",
@@ -1068,7 +1068,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2020-11-10T14:47:10+00:00"
+            "time": "2020-11-17T14:53:20+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -2717,12 +2717,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/spekulatius/spatie-crawler-toolkit-for-laravel.git",
-                "reference": "f8c88e56017177b98ef48b344a68fbd74a33fc39"
+                "reference": "be358e99a5f9ccfbf1b44940ac478a6c8f689519"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spekulatius/spatie-crawler-toolkit-for-laravel/zipball/f8c88e56017177b98ef48b344a68fbd74a33fc39",
-                "reference": "f8c88e56017177b98ef48b344a68fbd74a33fc39",
+                "url": "https://api.github.com/repos/spekulatius/spatie-crawler-toolkit-for-laravel/zipball/be358e99a5f9ccfbf1b44940ac478a6c8f689519",
+                "reference": "be358e99a5f9ccfbf1b44940ac478a6c8f689519",
                 "shasum": ""
             },
             "require": {
@@ -2761,7 +2761,7 @@
                 }
             ],
             "description": "Handy classes for Spatie's crawler when using it with Laravel.",
-            "time": "2020-11-17T11:41:26+00:00"
+            "time": "2020-11-17T21:39:37+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

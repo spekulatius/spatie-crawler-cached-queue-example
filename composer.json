@@ -67,5 +67,17 @@
             "type": "git",
             "url": "git@github.com:SpeksForks/crawler.git"
         }
+
+
+    ],
+    "repositories2": [
+        {
+            "type": "path",
+            "url": "/var/www/contrib/own/spatie-crawler-toolkit-for-laravel",
+            "options": {
+                "symlink": false
+            }
+        }
+
     ]
 }

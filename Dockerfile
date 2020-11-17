@@ -2,7 +2,7 @@
 # Based on https://github.com/kamerk22/laravel-alpine
 #
 # docker build -t crawler-example -f ./Dockerfile .
-# docker run -d -p 8080:80 crawler-example
+# docker run -p 8080:80 --rm crawler-example
 #
 
 # Base image
