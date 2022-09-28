@@ -1,6 +1,6 @@
 # Spatie Crawler Example for Cached Queue-Driver
 
-This is an example of how a [Crawler](https://github.com/spatie/crawler) queue-driver can be cached and reused later. As an example it's rather simple and only intended to demonstrate core functionality. This is not intended to be used as a project.
+This is an example of how a [Crawler](https://github.com/spatie/crawler) queue-driver can be cached and reused later. As an example it's rather simple and only intended to demonstrate core functionality. This is not intended to be used as a project. It could be [integrated nicely with PHP Scraper](https://github.com/spekulatius/PHPScraper).
 
 The example is intended to be used with Docker as an locally-build image. The following commands build and run the crawler example:
 
